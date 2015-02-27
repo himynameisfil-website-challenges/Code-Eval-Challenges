@@ -1,0 +1,21 @@
+# Code-Eval-Challenges
+challenge problems found on codeeval
+primelst = [2]
+for i in range(3,1000,2):
+    for j in primelst:
+        if i % j ==0:
+            break
+    else:
+        primelst.append(i)
+def palindrometest(x):
+    x = str(x)
+    for i in range(0, len(x)):
+        if x[i] != x[len(x)-1-i]:
+            return False
+    else:
+        return True
+primelst.reverse()
+for k in primelst:
+    if palindrometest(k):
+        print(k)
+        break
