@@ -1,0 +1,12 @@
+# Code-Eval-Challenges
+challenge problems found on codeeval
+primelst = [2]
+i=3
+while len(primelst) < 1000:
+    for j in primelst:
+        if i % j ==0:
+            break
+    else:
+        primelst.append(i)
+    i+=2
+print(sum(primelst))
