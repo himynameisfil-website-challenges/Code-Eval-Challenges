@@ -1,5 +1,7 @@
-# Code-Eval-Challenges
-challenge problems found on codeeval
+##Status:Partially completed
+##Problem:https://www.codeeval.com/open_challenges/30/
+##Print the intersection of two sets of numbers.
+
 import sys
 test_cases = open(sys.argv[1], 'r')
 for test in test_cases:
