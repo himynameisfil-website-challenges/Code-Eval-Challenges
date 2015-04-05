@@ -1,5 +1,7 @@
-# Code-Eval-Challenges
-challenge problems found on codeeval
+##Status:Partially completed
+##Problem:https://www.codeeval.com/open_challenges/4/
+##Sum of first 1000 primes.
+
 primelst = [2]
 i=3
 while len(primelst) < 1000:
