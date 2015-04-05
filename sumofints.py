@@ -1,5 +1,7 @@
-# Code-Eval-Challenges
-challenge problems found on codeeval
+##Status:Partially completed
+##Problem:https://www.codeeval.com/open_challenges/24/
+##Print the sum of integers read from a file.
+
 import sys
 lst = []
 test_cases = open(sys.argv[1], 'r')
