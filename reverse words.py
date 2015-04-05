@@ -1,5 +1,7 @@
-# Code-Eval-Challenges
-challenge problems found on codeeval
+##Status:Solved
+##Problem:https://www.codeeval.com/open_challenges/8/
+##Reversing an input sequence of words.
+
 import sys
 test_cases = open(sys.argv[1], 'r')
 for test in test_cases:
