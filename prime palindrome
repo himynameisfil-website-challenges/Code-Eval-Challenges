@@ -1,5 +1,7 @@
-# Code-Eval-Challenges
-challenge problems found on codeeval
+##Status:Solved
+##Problem:https://www.codeeval.com/open_challenges/3/
+##Biggest prime palindrome < 1000.
+
 primelst = [2]
 for i in range(3,1000,2):
     for j in primelst:
